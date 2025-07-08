@@ -1,4 +1,4 @@
-# YOLOv8 + OpenCV + Matplotlib | Bottle Detection 🍼
+# YOLOv8 + OpenCV + Matplotlib | Bottle Detection 
 
 ### Specialized Bottle Detection System
 

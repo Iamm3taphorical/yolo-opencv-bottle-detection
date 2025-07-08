@@ -15,7 +15,7 @@ This was my first hands-on project with YOLO and OpenCV, designed to learn:
 
 ## ✨ Features
 
-- 🍼 **Bottle-Specific Detection**: Filters for bottle objects only
+- 🍾 **Bottle-Specific Detection**: Filters for bottle objects only
 - 📦 **Bounding Box Visualization**: Clear object boundaries
 - ✅ **Center Checkmarks**: Green checkmarks on detected bottle centers
 - 📊 **Grid Display**: Organized matplotlib visualization
@@ -152,7 +152,7 @@ yolo-opencv-bottle-detection/
 - **Model Size**: YOLOv8m (medium) - balance of speed/accuracy
 - **Target Class**: Bottle (COCO ID: 39)
 
-### Visualization Settings
+### Visualisation Settings
 - **Grid Size**: Auto-calculated based on image count
 - **Figure Size**: Configurable for different screen sizes
 - **Color Scheme**: Customizable for different preferences
@@ -178,7 +178,7 @@ yolo-opencv-bottle-detection/
 
 1. **"No bottles detected"**
    - Lower confidence threshold
-   - Ensure bottles are clearly visible
+   - Ensure bottles are visible
    - Check image quality and lighting
 
 2. **"Model not found"**
@@ -246,12 +246,6 @@ For questions or issues:
 - Review the [Ultralytics documentation](https://docs.ultralytics.com/)
 - Open an issue on GitHub
 
-## 🔗 Related Projects
-
-- [Object-Detection-using-YOLOv8](https://github.com/Iamm3taphorical/Object-Detection-using-YOLOv8) - General object detection
-- [video-detection](https://github.com/Iamm3taphorical/video-detection) - Video object detection system
-
----
 
 **Author**: Mahir Dyan  
 **GitHub**: [@Iamm3taphorical](https://github.com/Iamm3taphorical)  

@@ -1,10 +1,10 @@
-# YOLOv8 + OpenCV + Matplotlib | Bottle Detection 
+# Bottle Detection using YOLOv8 + OpenCV + Matplotlib
 
 ### Specialized Bottle Detection System
 
 A focused computer vision project that detects **bottles** in static images using [Ultralytics YOLOv8](https://github.com/ultralytics/ultralytics), **OpenCV**, and **Matplotlib**. This beginner-friendly prototype demonstrates object detection fundamentals with visual feedback through bounding boxes and checkmarks ✅.
 
-## 🎯 Project Overview
+##  Project Overview
 
 This was my first hands-on project with YOLO and OpenCV, designed to learn:
 - **Model Loading & Inference**: Using `yolov8m.pt` for detection
@@ -13,16 +13,16 @@ This was my first hands-on project with YOLO and OpenCV, designed to learn:
 - **Batch Processing**: Handling multiple images simultaneously
 - **Results Visualization**: Creating organized matplotlib grids
 
-## ✨ Features
+##  Features
 
-- 🍾 **Bottle-Specific Detection**: Filters for bottle objects only
-- 📦 **Bounding Box Visualization**: Clear object boundaries
-- ✅ **Center Checkmarks**: Green checkmarks on detected bottle centers
-- 📊 **Grid Display**: Organized matplotlib visualization
-- 🔄 **Batch Processing**: Process multiple images at once
-- 📱 **Flexible Input**: Support for various image formats
+-  **Bottle-Specific Detection**: Filters for bottle objects only
+-  **Bounding Box Visualization**: Clear object boundaries
+-  **Center Checkmarks**: Green checkmarks on detected bottle centers
+-  **Grid Display**: Organized matplotlib visualization
+-  **Batch Processing**: Process multiple images at once
+-  **Flexible Input**: Support for various image formats
 
-## 📋 Requirements
+##  Requirements
 
 Create a `requirements.txt` file:
 
@@ -37,7 +37,7 @@ Pillow>=8.0.0
 jupyter>=1.0.0
 ```
 
-## 🛠️ Installation
+##  Installation
 
 1. **Clone the repository:**
    ```bash
@@ -57,7 +57,7 @@ jupyter>=1.0.0
    wget https://github.com/ultralytics/assets/releases/download/v0.0.0/yolov8m.pt
    ```
 
-## 🚀 Usage
+##  Usage
 
 ### Running the Jupyter Notebook
 
@@ -95,7 +95,7 @@ for image_path in image_paths:
             # Process detections...
 ```
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 yolo-opencv-bottle-detection/
@@ -108,7 +108,7 @@ yolo-opencv-bottle-detection/
 └── examples/                       # Example images
 ```
 
-## 🔍 What's Inside
+##  What's Inside
 
 ### Core Functions:
 
@@ -128,7 +128,7 @@ yolo-opencv-bottle-detection/
   - Creates matplotlib visualization grids
   - Saves annotated results
 
-## 🎨 Visualization Features
+##  Visualization Features
 
 ### Bounding Boxes
 - **Color**: Customizable (default: green for bottles)
@@ -145,7 +145,7 @@ yolo-opencv-bottle-detection/
 - **Titles**: Image names and detection counts
 - **Spacing**: Optimized for readability
 
-## ⚙️ Configuration
+##  Configuration
 
 ### Detection Parameters
 - **Confidence Threshold**: Default 0.25 (adjustable)
@@ -157,7 +157,7 @@ yolo-opencv-bottle-detection/
 - **Figure Size**: Configurable for different screen sizes
 - **Color Scheme**: Customizable for different preferences
 
-## 📊 Performance
+##  Performance
 
 ### Model Specifications:
 - **Model**: YOLOv8m (medium)
@@ -166,13 +166,13 @@ yolo-opencv-bottle-detection/
 - **Accuracy**: High for clear bottle images
 
 ### Tested Scenarios:
-- ✅ Water bottles
-- ✅ Glass bottles
-- ✅ Plastic bottles
-- ✅ Multiple bottles in scene
-- ✅ Various lighting conditions
+- Water bottles
+-  Glass bottles
+- Plastic bottles
+- Multiple bottles in scene
+-  Various lighting conditions
 
-## 🐛 Troubleshooting
+##  Troubleshooting
 
 ### Common Issues:
 
@@ -197,57 +197,10 @@ yolo-opencv-bottle-detection/
    - Process smaller image batches
    - Use CPU inference: `model = YOLO('yolov8m.pt', device='cpu')`
 
-## 📈 Results Examples
+##  Results Examples
 
 ### Detection Output:
 - **Bounding boxes** around detected bottles
 - **Confidence scores** displayed on boxes
 - **Green checkmarks** at bottle centers
 - **Grid visualization** of all processed images
-
-### Performance Metrics:
-- **Detection Rate**: High for clear bottle images
-- **False Positives**: Minimal with proper threshold
-- **Processing Speed**: Fast batch processing
-
-## 🔬 Learning Outcomes
-
-This project helped me understand:
-- **YOLO Architecture**: How YOLOv8 works for object detection
-- **Class Filtering**: Targeting specific object types
-- **OpenCV Integration**: Image processing and annotation
-- **Matplotlib Visualization**: Creating informative displays
-- **Batch Processing**: Efficient multiple image handling
-
-## 🚀 Future Improvements
-
-- [ ] Add real-time video detection
-- [ ] Implement bottle type classification
-- [ ] Add bottle counting functionality
-- [ ] Create web interface
-- [ ] Add mobile app support
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create your feature branch: `git checkout -b feature/new-feature`
-3. Commit your changes: `git commit -m 'Add new feature'`
-4. Push to the branch: `git push origin feature/new-feature`
-5. Submit a pull request
-
-## 📄 License
-
-This project uses YOLOv8 from Ultralytics (AGPL-3.0 License).
-
-## 🆘 Support
-
-For questions or issues:
-- Check the troubleshooting section
-- Review the [Ultralytics documentation](https://docs.ultralytics.com/)
-- Open an issue on GitHub
-
-
-**Author**: Mahir Dyan  
-**GitHub**: [@Iamm3taphorical](https://github.com/Iamm3taphorical)  
-**Email**: mahirdyan30@gmail.com  
-**Project Type**: Computer Vision Learning Project
